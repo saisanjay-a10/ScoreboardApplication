@@ -1,0 +1,52 @@
+Pseudocode in Python for Scorecard Generator
+
+
+sport = input the sport from the user
+if sport=='Tennis' or sport=='Volleyball':
+    print "Welcome to the game! The scorecard will be updated soon"
+elif sport=='Badminton':
+    print "Welcome to the game"
+    player1_name=input player 1 name
+    player2_name=input player 2 name
+    print "The match is between player 1 and player 2"/Display their names
+    set=0
+    set_won1=0
+    set_won2=0
+    winner=None
+    con = input "Want to continue the game(y/n):- "
+    while(con=='y' and set<=3):
+        set+=1
+        print(f"Set:{set}")
+        player1_pts=0
+        player2_pts=0
+        set_over=False
+        while(set_over==False):
+            input which player won the point
+            if player 1 wins: player1_pts+=1
+            else: player2_pts+=1
+            if player1_pts>=21 or player2_pts>=21 and abs(both points)>=2:
+                  if player1_pts>player2_pts: 
+		       print player 1 wins
+                       set_won1+=1
+                       set_over=True
+                  else:
+                       print player 2 wins
+                       set_won2+=1
+                       set_over=True
+             if player1_pts==30 or player2_pts==30:
+                   if player1_pts>player2_pts: 
+		       print player 1 wins
+                       set_won1+=1
+                       set_over=True
+                  else:
+                       print player 2 wins
+                       set_won2+=1
+                       set_over=True
+      if set_won1>set_won2: winner=player1_name
+      else: winner=player2_name
+      print f"The winner of the game is {winner}"
+elif sport==exit:
+    exit the program
+else:
+    print("Invalid Game!")
+             

@@ -1,0 +1,102 @@
+Available Games 
+	 1. Volleyball
+	 2. Tennis
+	 3. Badminton
+	 4. Exit
+Enter your choice:- 1
+Welcome to the game! The scoreboard will be updated soon
+		 Available Games 
+	 1. Volleyball
+	 2. Tennis
+	 3. Badminton
+	 4. Exit
+Enter your choice:- 2
+Welcome to the game! The scoreboard will be updated soon
+		 Available Games 
+	 1. Volleyball
+	 2. Tennis
+	 3. Badminton
+	 4. Exit
+Enter your choice:- 3
+Welcome to the game!
+Enter the name of player 1:- a
+Enter the name of player 2:- b
+The match is between a and b
+
+a vs b | Set 1
+Who won the point:- a
+----- SCOREBOARD (Set 1) -----
+a : 1
+b : 0
+Who won the point:- a
+----- SCOREBOARD (Set 1) -----
+a : 2
+b : 0
+Who won the point:- b
+----- SCOREBOARD (Set 1) -----
+a : 2
+b : 1
+Who won the point:- a
+----- SCOREBOARD (Set 1) -----
+a : 3
+b : 1
+a wins Set 1
+
+a vs b | Set 2
+Who won the point:- a
+----- SCOREBOARD (Set 2) -----
+a : 1
+b : 0
+Who won the point:- b
+----- SCOREBOARD (Set 2) -----
+a : 1
+b : 1
+Who won the point:- b
+----- SCOREBOARD (Set 2) -----
+a : 1
+b : 2
+Who won the point:- b
+----- SCOREBOARD (Set 2) -----
+a : 1
+b : 3
+b wins Set 2
+
+a vs b | Set 3
+Who won the point:- a
+----- SCOREBOARD (Set 3) -----
+a : 1
+b : 0
+Who won the point:- b
+----- SCOREBOARD (Set 3) -----
+a : 1
+b : 1
+Who won the point:- a
+----- SCOREBOARD (Set 3) -----
+a : 2
+b : 1
+Who won the point:- b
+----- SCOREBOARD (Set 3) -----
+a : 2
+b : 2
+Who won the point:- a
+----- SCOREBOARD (Set 3) -----
+a : 3
+b : 2
+Who won the point:- a
+----- SCOREBOARD (Set 3) -----
+a : 4
+b : 2
+a wins Set 3
+Player      Set 1	Set 2	Set 3	
+a	3	1	4
+b	1	3	2
+
+Match Winner: a
+		 Available Games 
+	 1. Volleyball
+	 2. Tennis
+	 3. Badminton
+	 4. Exit
+Enter your choice:- 
+
+
