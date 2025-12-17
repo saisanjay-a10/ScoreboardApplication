@@ -23,7 +23,10 @@ def play_set(p1_name,p2_name,set_number):
         return player1_pts, player2_pts, p1_name
     else:
         print(f"{p2_name} wins Set {set_number}")
-        return player11_pts, player2_pts, p2_name
+        return player1_pts, player2_pts, p2_name
+    proceed = input("Do you want to continue to the next point? (y/n)")
+    if proceed.lower() != 'y':
+        return player1_pts, player2_pts, None
 
 #FUNCTION TO DISPLAY SCOREBOARD
 
@@ -31,7 +34,7 @@ def display_scoreboard(p1_name, p2_name, set_scores, winner):
     #Header
     print(f"{'Player':<12}",end="")
     for i in range(1,4):
-        print(f"Set {i}\t",end="")
+        print(f"\tSet {i}",end="")
     print()
     #Player 1
     print(f"{p1_name}",end="")
